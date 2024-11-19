@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CW_13.Entityes
+{
+    public class Order_Detail
+    {
+        public int OrderID { get; set; }
+        public int ProductID { get; set; }
+        public Decimal UnitPrice { get; set; }
+        public int Quantity { get; set; }
+        public Single Discount { get; set; }
+
+
+    }
+}
